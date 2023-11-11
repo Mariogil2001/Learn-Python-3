@@ -1,6 +1,7 @@
 # Learn Python 3
 
 _Repository with all the projects from the course "Learn Python 3" from [Codeacademy](https://www.codecademy.com/learn/learn-python-3)._
+
 _Repository with all the projects from the course "Learn Data Analysis with Pandas" from [Codeacademy](https://www.codecademy.com/learn/data-processing-pandas)._
 
 ### Pre-requirements 📋
