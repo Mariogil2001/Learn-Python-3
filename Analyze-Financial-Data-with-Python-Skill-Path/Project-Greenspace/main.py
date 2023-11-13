@@ -1,4 +1,3 @@
-import codecademylib3_seaborn
 import matplotlib.pyplot as plt
 
 project_a = [-2000000, 0, 0, 50000, 250000, 500000, 500000, 750000, 750000, 500000, 500000, 500000, 500000, 500000, 1000000]
