@@ -62,15 +62,15 @@ try:
 
     # Determinar el color de la línea
     color = "green" if variacion > 0 else "red"
-    texto_variacion = "El precio aumentó" if variacion > 0 else "El precio disminuyó"
+    texto_variacion = "El precio aumentó desde hace 1 año" if variacion > 0 else "El precio disminuyó desde hace 1 año"
 
     # Crear subplots
     fig, (ax1, ax2) = plt.subplots(2, 1, gridspec_kw={'height_ratios': [3, 1]}, figsize=(10, 6))
 
     # Subplot 1: Gráfico
-    ax1.plot(hist["Date"], hist["Close"], color=color)
+    ax1.plot(hist["Date"], hist["Close"], color = color)
     ax1.set_ylabel('Precio')
-    ax1.set_title(f'Precio de {ticker}', loc='center')
+    ax1.set_title(f'Precio de {ticker}', loc = 'center')
 
     # Subplot 2: Texto de variación y analysis_tradingv
     texto_completo = f'{texto_variacion}\n({variacion:.2f}%)\n\n{analysis_tradingv}'
